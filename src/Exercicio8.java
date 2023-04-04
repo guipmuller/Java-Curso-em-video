@@ -5,13 +5,15 @@ public class Exercicio8 {
         // fatorial
         Scanner scan = new Scanner(System.in);
         System.out.print("Digite o número a ser calculado: ");
-        int number = scan.nextInt();
-        long fatorial = 1;
-        int count = 0;
-        while (count < number) {
-            count ++;
+        int fatorial = scan.nextInt();
+        int count = fatorial;
+        String exibition = "";
+        while (count > 1) { 
+            exibition = exibition + (count + " * ");
+            count--;
             fatorial = fatorial * count;
         }
-        System.out.println("!" + number + " = " + fatorial);
+        exibition = exibition + ("1 ");
+        System.out.println(exibition + " = " + fatorial);
     }
 }
