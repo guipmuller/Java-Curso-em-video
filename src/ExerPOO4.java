@@ -1,11 +1,11 @@
 public class ExerPOO4 {
     public static void main(String[] args) {
-        ExerPOO4b conta1 = new ExerPOO4b(0, false);
+        ExP4Conta conta1 = new ExP4Conta(0, false);
         conta1.setNumConta(123465);
         conta1.setNomeDono("Jubileu");
         conta1.abrirConta("CC");
         conta1.depositar(300);
-        ExerPOO4b conta2 = new ExerPOO4b(0, false);
+        ExP4Conta conta2 = new ExP4Conta(0, false);
         conta2.setNumConta(456789);
         conta2.setNomeDono("Creuza");
         conta2.abrirConta("CP");

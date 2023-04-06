@@ -1,5 +1,5 @@
 
-public class ExerPOO1b {
+public class ExP1Caneta {
     String modelo;
     String cor;
     float ponta;

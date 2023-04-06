@@ -1,10 +1,10 @@
-public class ExerPOO3b {
+public class ExP3Caneta {
     public String modelo;
     private float ponta;
     private String cor;
     private boolean tampada;
     
-    public ExerPOO3b(String modelo, float ponta, String cor, boolean tampada) {
+    public ExP3Caneta(String modelo, float ponta, String cor, boolean tampada) {
         this.modelo = modelo;
         this.ponta = ponta;
         this.cor = cor;

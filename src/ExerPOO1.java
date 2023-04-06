@@ -1,7 +1,7 @@
 
-public class ExerPOO1 {
+public class EP1 {
     public static void main(String[] args) {
-        ExerPOO1b caneta1 = new ExerPOO1b();
+        ExP1Caneta caneta1 = new ExP1Caneta();
         caneta1.cor = "Azul";
         caneta1.ponta = 0.5f;
         caneta1.destampar();
@@ -9,7 +9,7 @@ public class ExerPOO1 {
         caneta1.rabiscar();
         
         System.out.println();
-        ExerPOO1b caneta2 = new ExerPOO1b();
+        ExP1Caneta caneta2 = new ExP1Caneta();
         caneta2.modelo = "Bic";
         caneta2.cor = "Preta";
         caneta2.tampar();

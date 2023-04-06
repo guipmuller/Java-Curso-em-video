@@ -1,4 +1,4 @@
-public class ExerPOO4b {
+public class ExP4Conta {
     public int numConta;
     protected String tipo; // cp = conta poupança ou cc = conta corrente
     private String nomeDono;
@@ -15,7 +15,7 @@ public class ExerPOO4b {
         
     }
 
-    public ExerPOO4b(float saldo, boolean status) {
+    public ExP4Conta(float saldo, boolean status) {
         this.saldo = 0;
         this.status = false;
     }

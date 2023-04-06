@@ -1,4 +1,4 @@
-public class ExerPOO2b {
+public class ExP2Caneta {
     public String modelo;
     public String cor;
     private float ponta;
