@@ -11,6 +11,7 @@ public class ExerPOO9 {
         ExP9Peixe p = new ExP9Peixe();
         ExP9Ave a = new ExP9Ave();
         ExP9Canguru k = new ExP9Canguru();
+        ExP9Lobo l = new ExP9Lobo();
         ExP9Cachorro c = new ExP9Cachorro();
         
         m.setPeso(85.3f);
@@ -50,6 +51,9 @@ public class ExerPOO9 {
         k.usarBolsa();
 
         quebraLinha();
+        l.emitirSom();
+
+        quebraLinha();
         c.setPeso(3.94f);
         c.setIdade(5);
         c.setMembros(4);
@@ -57,6 +61,10 @@ public class ExerPOO9 {
         c.alimentar();
         c.emitirSom();
         c.abanarRabo();
+        c.reagir("Oi rex");
+        c.reagir(true);
+        c.reagir(10, 10);
+        c.reagir(10, 5.5f);
 
     }
 }
